@@ -1,0 +1,39 @@
+*{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(211, 39%, 50%, 0.6);
+    background-image:   
+      url('tree.png'),
+      url('cloudd.png'),
+      url('mountain.png'),
+      url('sky.png');
+    background-repeat: repeat-x;
+    overflow: hidden;
+    background-position:  
+    0 15%,
+    0 22%,
+    0 49%,
+    0 570%,
+    0 0;
+  background-size: 
+    2000px,
+    400px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  
+  }
+
+@keyframes para {
+  100% {
+    background-position: 
+      -5000px 22%,
+      -400px 95%,
+      500px 50%,
+      1000px 100%,
+      400px 0;
+    }
+
+  
+
+    }
